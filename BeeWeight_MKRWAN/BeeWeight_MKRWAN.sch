@@ -342,9 +342,9 @@ L Transistor_FET:IRLML2060 Q1
 U 1 1 608900FB
 P 5725 3750
 F 0 "Q1" H 5929 3796 50  0000 L CNN
-F 1 "IRLML2244" H 5929 3705 50  0000 L CNN
+F 1 "IRLML6244" H 5929 3705 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5925 3675 50  0001 L CIN
-F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee" H 5725 3750 50  0001 L CNN
+F 3 "https://fr.rs-online.com/web/p/transistors-mosfet/7377228/" H 5725 3750 50  0001 L CNN
 	1    5725 3750
 	1    0    0    -1  
 $EndComp
@@ -1142,14 +1142,8 @@ Text Notes 4550 2925 0    100  ~ 0
 Low Power management
 Wire Wire Line
 	7900 6125 6025 6125
-Connection ~ 5675 6125
-Wire Wire Line
-	5675 6125 5650 6125
 Wire Wire Line
 	6025 6100 6025 6125
-Connection ~ 6025 6125
-Wire Wire Line
-	6025 6125 5675 6125
 Wire Notes Line
 	4325 4975 6675 4975
 Wire Notes Line
@@ -1225,4 +1219,7 @@ Wire Wire Line
 Connection ~ 5650 3425
 Wire Wire Line
 	5650 3425 5525 3425
+Wire Wire Line
+	5675 6125 6025 6125
+Connection ~ 6025 6125
 $EndSCHEMATC
