@@ -688,7 +688,7 @@ U 1 1 6096A72B
 P 5375 6125
 F 0 "U2" H 5145 6171 50  0000 R CNN
 F 1 "DS18B20" H 5145 6080 50  0000 R CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4375 5875 50  0001 C CNN
+F 2 "Package_TO_SOT_THT:TO-92" H 4375 5875 50  0001 C CNN
 F 3 "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf" H 5225 6375 50  0001 C CNN
 	1    5375 6125
 	1    0    0    -1  
